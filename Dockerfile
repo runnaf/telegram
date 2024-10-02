@@ -2,10 +2,10 @@
 FROM node:18
 
 # Set the working directory in the container
-WORKDIR /index.js
+WORKDIR /app
 
 # Copy the application files into the working directory
-COPY . /index.js
+COPY . /app
 
 # Install the application dependencies
 RUN npm install
